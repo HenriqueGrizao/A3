@@ -1,0 +1,212 @@
+body{
+    margin: 0px;
+   
+}
+
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#topo{
+    background-color: darkblue;
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    z-index: 2;
+    top: 0;
+}
+
+#logo{
+    padding: 5px 7px;
+}
+
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li{
+    display: inline;
+    font-size: 1.2em;
+}
+
+nav .link{
+    border: 1px solid white;
+    border-radius: 20px;
+    color: white;
+    text-decoration: none;
+    padding: 5px;
+    margin-left: 10px;
+}
+
+nav .link:hover{
+    background-color: white;
+    color: darkblue;
+}
+
+
+.informacoes-1, .informacoes-2{
+    background-color: darkblue;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.informacoes-2{
+    flex-direction: row-reverse;
+}
+
+.texto-informacoes{
+    width: 49%;
+    background-color: darkblue;
+    color: white;
+    padding: 15px;
+}
+
+.imagem-informacoes{
+    width: 50%;
+}
+
+.teste{
+    clear: both;
+}
+
+#card-vantagen{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+#vantagens{
+    margin-bottom: 20px;
+}
+
+.vantagem{
+    width: 30%;
+    background-color: darkblue;
+    color: white;
+    border-radius: 25px;
+    padding: 3px;
+    text-align: center;
+    box-shadow: 2px 4px 10px black;
+    margin-bottom: 25px;
+}
+
+.vantagem i{
+    font-size: 3em;
+}
+
+#titulo-Vantagens{
+    color: darkblue;
+    text-align: center;
+}
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    background-color: darkblue;
+    color: white;
+    align-items: center;
+}
+
+#redesSociais{
+    margin-top: 15px;
+    padding-left: 5px;
+    font-size: 1.7em;
+}
+
+#redesSociais a{
+    color: white;
+    padding: 5px 3px 3px 3px;
+}
+
+#redesSociais a:hover{
+    background-color: white;
+    color: darkblue;
+    border-radius: 100%;
+}
+
+#rodape-informacoes{
+font-size: 0.9em;
+}
+  
+.carrosselImg {
+  box-shadow: 0 1px 2px #0003;
+  height: 100%;
+  width: 100%;
+  position: relative;
+  bottom:45px
+}
+  
+.swiper {
+  height: 500px;
+}
+  
+.swiper-slide {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#tituloCarrosel{
+    color: darkblue;
+    margin-bottom: 0px;
+    text-align: center;
+    font-size: 3.0em;
+    border-bottom: 3px solid darkblue;
+    border-top: 3px solid darkblue;
+}
+
+@media (max-width: 650px) {
+    .imagem-informacoes {
+      display: none;
+    }
+
+    .texto-informacoes{
+        width: 100%;
+    }
+
+    nav{
+        font-size: 0.8em;
+    }
+
+    #logo{
+        width: 50px;
+    }
+    
+    #redesSociais{
+        font-size: 1em;
+    }
+    .Acompanhe{
+        display: none;
+    }
+
+    #rodape-informacoes{
+        font-size: 0.5em;
+    }
+
+    #tituloCarrosel{
+        font-size: 2.0em;
+    }
+}
+
+.swiper {
+    height: 500px;
+    margin-bottom: 20px;
+}
+
+  .swiper-horizontal>.swiper-pagination-bullets, .swiper-pagination-bullets.swiper-pagination-horizontal, .swiper-pagination-custom, .swiper-pagination-fraction{
+    bottom: -2px;
+  }
+  
+@media (max-width: 650px) {
+  .swiper {
+    height: 270px;
+  }
+}
+
